@@ -1,0 +1,45 @@
+img {
+	display: block;
+	margin: auto;
+
+}
+
+li {
+  padding: 10px;
+  margin-left: 20px;
+  list-style-type: square;
+  
+}
+
+h1 {
+	font-size: 75px;
+	font-family: "Times New Roman";
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: "Times New Roman";
+	
+}
+
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+body {
+    background-color: #175FBD;
+    font-size: 25px;
+
+}
