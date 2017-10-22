@@ -69,9 +69,9 @@ var orm = {
   update: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 
-    queryString += " SET devoured = 1";
+    queryString += " SET ";
     queryString += objToSql(objColVals);
-    queryString += " WHERE id=?";
+    queryString += " WHERE ";
     queryString += condition;
 
     console.log(queryString);
